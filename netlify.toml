@@ -1,7 +1,5 @@
 [build]
-command = """
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-export PATH="$HOME/.cargo/bin:$PATH"
-npm ci
-npm run generate
-"""
+  command = "npm ci --include=optional && npm run generate"
+
+[build.environment]
+  NODE_VERSION = "20.19.5"
