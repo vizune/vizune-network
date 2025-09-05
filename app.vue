@@ -6,6 +6,7 @@ useHead({
 </script>
 
 <template>
+  <SvgSprite />
   <div>
     <AppHeader />
     <main class="lg:pt-[var(--header-h)]">
