@@ -2,20 +2,22 @@
   <div>
     <AppSection class="bg-lilac bg-lilac-girl" position="left">
       <h1>Welcome!</h1>
-      <p>Hi! This is Kantai. This template features chibi versions of characters from the anime and video game series, Kantai Collection. 
-        Built with <a href="https://nuxt.com/" target="_blank">Nuxt</a>, <a href="https://vuejs.org/" target="_blank">Vue.js</a>, and <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, Kantai is perfect for creating a portfolio or network website. 
-        Whether you're showcasing your work or building an online community, this template offers a delightful and engaging design to captivate your audience.</p>
+      <p>Hiya~! My name is Sasha. I have owned this domain since 2010 which has evolved over the years as a web development portfolio and creative sanctuary in anime graphic design.</p>
+
+      <p>Now I'm treating this space as a central hub all my interests and hobbies including anime, gaming, programming, collecting and adventures.</p>
+
+      <p>Vizune is also my gamertag and now it's the name of my company 🎉 So <em>watch this space</em>. It's only the beginning ✨</p>
       <Button 
-        url="/" 
-        label="Hover me! Hover me!" 
+        url="/#designs" 
+        label="Start exploring" 
         backgroundColor="bg-apricot"
         borderColor="border-sunflower"
       />
     </AppSection>
 
     <AppSection id="designs" class="bg-breeze bg-breeze-girl" position="right">
-      <h2>Design Archive</h2>
-      <p>My creative sanctuary where anime, gaming, design, and web development collide. Here, I explore visual storytelling through graphics and web templates — sharing resources and tutorials to inspire your own digital creations.</p>
+      <h2>Creative sanctuary</h2>
+      <p>My design archive now hosted on Neocities where anime, gaming, design, and web development collide. Here, I explore visual storytelling through graphics / web templates and sharing resources & tutorials to inspire your own digital creations.</p>
       <Button 
         url="https://vizune.neocities.org/" 
         label="Visit Vizune Designs" 
@@ -25,8 +27,8 @@
       />
     </AppSection>
 
-    <AppSection id="blog" class="bg-apricot bg-apricot-girl" position="left">
-      <h2>Blog</h2>
+    <AppSection id="portfolio" class="bg-apricot bg-apricot-girl" position="left">
+      <h2>Portfolio (TBC)</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <Button 
@@ -36,8 +38,8 @@
         borderColor="border-lime"
       />
     </AppSection>
-    <AppSection id="portfolio" class="bg-lime bg-lime-girl" position="right">
-      <h2>Portfolio</h2>
+    <AppSection id="blog" class="bg-lime bg-lime-girl" position="right">
+      <h2>Blog (TBC)</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <Button 
@@ -48,9 +50,9 @@
       />
     </AppSection>
     <AppSection id="tcg" class="bg-sunflower bg-sunflower-girl" position="left">
-      <h2>TCG Collection</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
+      <h2>TCG Vault (WIP)</h2>
+      <p>Here you'll find a growing gallery of my cards with photos amd what I'm hunting next. Think of it as a digital binder—organized, searchable, and always up to date.</p>
+      <p>Whether you're a fellow collector or a curious visitor, feel free to browse through what I've picked up.</p>
       <Button 
         url="/" 
         label="Find out more"
@@ -59,7 +61,7 @@
       />
     </AppSection>
     <AppSection id="reviews" class="bg-plum bg-plum-girl" position="right">
-      <h2>Reviews</h2>
+      <h2>Reviews (TBC)</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <Button 
