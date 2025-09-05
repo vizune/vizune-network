@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/google-fonts"],
+  modules: ['@nuxtjs/google-fonts'],
   css: ['~/assets/scss/main.scss'],
   components: [
     {
@@ -9,6 +9,12 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+  experimental: {
+    inlineSSRStyles: true
+  },
+  vite: {
+    build: { cssCodeSplit: false },
+  },
   googleFonts: {
     display: 'swap',
     families: {
@@ -19,7 +25,8 @@ export default defineNuxtConfig({
       },
     },
     download: true,
-    inject: true
+    inject: true,
+    preconnect: true
   },
   postcss: {
     plugins: {
