@@ -2,7 +2,7 @@
   <div>
     <AppSection class="bg-lilac bg-lilac-girl" position="left">
       <h1>Welcome!</h1>
-      <p>Hiya~! My name is Sasha. I have owned this domain since 2010 which has evolved over the years as a web development portfolio and creative sanctuary in anime graphic design.</p>
+      <p>Hiya~! My name is Sasha. I have owned this domain since 2009 which has evolved over the years as a web development portfolio and creative sanctuary in anime graphic design.</p>
 
       <p>Now I'm treating this space as a central hub for all my hobbies and interests including anime, gaming, programming, collecting and adventures.</p>
 
