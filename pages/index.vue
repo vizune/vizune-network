@@ -8,7 +8,7 @@
 
       <p>Vizune is also my gamertag and now it's the name of my company 🎉 So <em>watch this space</em>. It's only the beginning ✨</p>
       <Button 
-        url="/#designs" 
+        url="#designs" 
         label="Start exploring" 
         backgroundColor="bg-apricot"
         borderColor="border-sunflower"
@@ -16,8 +16,8 @@
     </AppSection>
 
     <AppSection id="designs" class="bg-breeze bg-breeze-girl" position="right">
-      <h2>Creative sanctuary</h2>
-      <p>My design archive now hosted on Neocities where anime, gaming, design, and web development collide. Here, I explore visual storytelling through graphics / web templates and sharing resources & tutorials to inspire your own digital creations.</p>
+      <h2>Designs</h2>
+      <p>My creative sanctuary is now hosted on Neocities where anime, gaming, design, and web development collide. Here, I explore visual storytelling through graphics / web templates and share resources & tutorials to inspire your own digital creations.</p>
       <Button 
         url="https://vizune.neocities.org/" 
         label="Visit Vizune Designs" 
