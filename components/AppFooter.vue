@@ -1,16 +1,16 @@
 <script setup lang="ts">
 const socials = [
-  { name: 'codepen', href: 'https://codepen.io/SRichardson', label: 'CodePen', color: 'bg-lilac' },
-  { name: 'deviantart', href: 'https://www.deviantart.com/vizune', label: 'DeviantArt', color: 'bg-breeze' },
-  { name: 'discord', href: 'https://discordapp.com/users/vizune.', label: 'Discord', color: 'bg-apricot' },
-  { name: 'github', href: 'https://github.com/vizune', label: 'GitHub', color: 'bg-lime' },
-  { name: 'instagram', href: 'https://www.instagram.com/vizune_/', label: 'Instagram', color: 'bg-sunflower' },
-  { name: 'linkedin', href: 'https://www.linkedin.com/in/sasha-r-547a2b57', label: 'LinkedIn', color: 'bg-plum' },
-  { name: 'pinterest',  href: 'https://uk.pinterest.com/vizune/',   label: 'Instagram', color: 'bg-lilac' },
-  { name: 'spotify', href: 'https://open.spotify.com/user/1149827575', label: 'Spotify', color: 'bg-breeze' },
-  { name: 'steam', href: 'https://steamcommunity.com/id/vizune/', label: 'Steam', color: 'bg-apricot' },
-  { name: 'threads', href: 'https://www.threads.com/@vizune_',label: 'Threads', color: 'bg-lime' },
-]
+  { name: 'codepen',    href: 'https://codepen.io/SRichardson',           label: 'CodePen',    color: '#beb8c8' },
+  { name: 'deviantart', href: 'https://www.deviantart.com/vizune',         label: 'DeviantArt', color: '#bfe0ee' },
+  { name: 'discord',    href: 'https://discordapp.com/users/vizune.',      label: 'Discord',    color: '#f3b28e' },
+  { name: 'github',     href: 'https://github.com/vizune',                 label: 'GitHub',     color: '#c6f0c7' },
+  { name: 'instagram',  href: 'https://www.instagram.com/vizune_/',        label: 'Instagram',  color: '#fffba3' },
+  { name: 'linkedin',   href: 'https://www.linkedin.com/in/sasha-r-547a2b57', label: 'LinkedIn', color: '#cbb8c8' },
+  { name: 'pinterest',  href: 'https://uk.pinterest.com/vizune/',          label: 'Pinterest',  color: '#beb8c8' },
+  { name: 'spotify',    href: 'https://open.spotify.com/user/1149827575',  label: 'Spotify',    color: '#bfe0ee' },
+  { name: 'steam',      href: 'https://steamcommunity.com/id/vizune/',     label: 'Steam',      color: '#f3b28e' },
+  { name: 'threads',    href: 'https://www.threads.net/@vizune_',          label: 'Threads',    color: '#c6f0c7' }
+];
 </script>
 
 <template>
@@ -20,23 +20,18 @@ const socials = [
         <a
           :href="s.href"
           target="_blank" rel="noopener noreferrer"
-          :style="{ '--c': s.color }"
-          :class="[
-          'inline-flex h-10 w-10 items-center justify-center rounded-full ring-2 ring-black transition-colors',
-          s.color
-          ]"
-          :aria-label="s.label"
-          title=""
-        >
-          <Icon
-            :name="s.name"
-            :size="22"
-            class="text-black"
-            :title="s.label"
-          />
+          :style="{ '--chip': s.color }"
+          class="group inline-flex size-10 items-center justify-center rounded-full
+                 bg-[var(--chip)] text-black
+                 ring-2 ring-black shadow-[0_6px_20px_rgba(0,0,0,0.35),_inset_0_1px_0_rgba(255,255,255,0.06)]
+                 transition-[background,color,box-shadow,ring-color] duration-200
+                 hover:bg-black hover:text-[var(--chip)] hover:ring-[var(--chip)]/40
+                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--chip)]/60">
+          <Icon :name="s.name" :size="22" aria-hidden="true" />
         </a>
       </li>
     </ul>
+
     <p class="mt-4 text-sm text-white/60">&copy; {{ new Date().getFullYear() }} Vizune</p>
   </footer>
 </template>
