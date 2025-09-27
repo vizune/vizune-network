@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import RainbowText from './RainbowText.vue';
+
 const socials = [
   { name: 'codepen',    href: 'https://codepen.io/SRichardson',           label: 'CodePen',    color: '#beb8c8' },
   { name: 'deviantart', href: 'https://www.deviantart.com/vizune',         label: 'DeviantArt', color: '#bfe0ee' },
@@ -11,6 +13,7 @@ const socials = [
   { name: 'steam',      href: 'https://steamcommunity.com/id/vizune/',     label: 'Steam',      color: '#f3b28e' },
   { name: 'threads',    href: 'https://www.threads.net/@vizune_',          label: 'Threads',    color: '#c6f0c7' }
 ];
+const year = new Date().getFullYear();
 </script>
 
 <template>
@@ -32,6 +35,8 @@ const socials = [
       </li>
     </ul>
 
-    <p class="mt-4 text-sm text-white/60">&copy; {{ new Date().getFullYear() }} Vizune</p>
+    <p class="mt-4 text-lg uppercase text-white/60">
+      <RainbowText :text="`© ${year} Vizune`" />
+    </p>
   </footer>
 </template>
