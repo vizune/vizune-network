@@ -60,8 +60,8 @@
         borderColor="border-breeze"
       />
     </AppSection>
-    <AppSection id="reviews" class="bg-plum bg-plum-girl" position="right">
-      <h2>Reviews (TBC)</h2>
+    <AppSection id="photography" class="bg-plum bg-plum-girl" position="right">
+      <h2>Photography (TBC)</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <Button 
