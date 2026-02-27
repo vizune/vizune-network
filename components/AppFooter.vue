@@ -22,6 +22,7 @@ const year = new Date().getFullYear();
       <li v-for="s in socials" :key="s.name">
         <a
           :href="s.href"
+          :title="s.label"
           target="_blank" rel="noopener noreferrer"
           :style="{ '--chip': s.color }"
           class="group inline-flex size-10 items-center justify-center rounded-full
