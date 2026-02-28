@@ -10,8 +10,8 @@
       <Button 
         url="#designs" 
         label="Start exploring" 
-        backgroundColor="bg-apricot"
-        borderColor="border-sunflower"
+        backgroundColor="lg:bg-apricot"
+        borderColor="lg:border-sunflower"
       />
     </AppSection>
 
@@ -22,7 +22,7 @@
         url="https://vizune.neocities.org/" 
         label="Visit Vizune Designs" 
         backgroundColor="bg-plum"
-        borderColor="border-sunflower"
+        borderColor="lg:border-sunflower"
         target="true"
       />
     </AppSection>
@@ -35,7 +35,7 @@
         url="/" 
         label="Find out more" 
         backgroundColor="bg-lilac"
-        borderColor="border-lime"
+        borderColor="lg:border-lime"
       />
     </AppSection>
     <AppSection id="blog" class="bg-lime bg-lime-girl" position="right">
@@ -46,7 +46,7 @@
         url="/" 
         label="Find out more" 
         backgroundColor="bg-apricot"
-        borderColor="border-lilac"
+        borderColor="lg:border-lilac"
       />
     </AppSection>
     <AppSection id="tcg" class="bg-sunflower bg-sunflower-girl" position="left">
@@ -57,7 +57,7 @@
         url="/" 
         label="Find out more"
         backgroundColor="bg-lime" 
-        borderColor="border-breeze"
+        borderColor="lg:border-apricot"
       />
     </AppSection>
     <AppSection id="photography" class="bg-plum bg-plum-girl" position="right">
@@ -68,7 +68,7 @@
         url="/" 
         label="Find out more" 
         backgroundColor="bg-breeze"
-        borderColor="border-sunflower"
+        borderColor="lg:border-sunflower"
       />
     </AppSection>
   </div>
