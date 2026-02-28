@@ -18,7 +18,7 @@ const year = new Date().getFullYear();
 
 <template>
   <footer class="w-full p-6 bg-black text-center">
-    <ul class="flex flex-wrap items-center justify-center gap-4">
+    <ul class="flex flex-wrap items-center justify-center gap-4 mt-2">
       <li v-for="s in socials" :key="s.name">
         <a
           :href="s.href"
@@ -35,9 +35,14 @@ const year = new Date().getFullYear();
         </a>
       </li>
     </ul>
-
-    <p class="mt-4 text-lg uppercase text-white/60">
-      <RainbowText :text="`© ${year} Vizune`" />
+    <p class="text-sm mb-4 mt-6">
+      <RainbowText text="Featuring Kuroshio, Suzuya, Akagi, Fubuki and Kasumi from Kantai Collection" />
+    </p>
+    <p class="mb-4">
+      <a href="https://www.pixiv.net/en/users/147202" target="_blank" class="text-sm border py-1 px-2"><RainbowText text="Artwork by Koji" /></a>
+    </p>
+    <p class="mt-4 text-lg text-white/60">
+      <RainbowText :text="`© ${year} VIZUNE`" />
     </p>
   </footer>
 </template>
