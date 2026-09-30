@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import RainbowText from './RainbowText.vue';
-import CloudPlaneButton from '../assets/cloudplane_button.png';
 
 const socials = [
   { name: 'codepen',    href: 'https://codepen.io/SRichardson',           label: 'CodePen',    color: '#beb8c8' },
@@ -42,8 +41,6 @@ const year = new Date().getFullYear();
     <p class="mb-4">
       <a href="https://www.pixiv.net/en/users/147202" target="_blank" class="text-sm border py-1 px-2"><RainbowText text="Artwork by Koji" /></a>
     </p>
-    <p class="text-sm"><RainbowText text="Listed on" /><br />
-    <a href="https://dir.aelysia.net/" target="_blank" class="inline-block"><img :src="CloudPlaneButton" /></a></p>
     <p class="mt-4 text-lg text-white/60">
       <RainbowText :text="`© ${year} VIZUNE`" />
     </p>
