@@ -46,10 +46,11 @@
 
       <p>My review site is currently being built over on Nekoweb, where I'll be slowly creating an archive of the games, stories and worlds I've fallen in love with along the way.</p>
       <Button 
-        url="" 
+        url="https://vizune.nekoweb.org/" 
         label="Visit Vizune Reviews" 
         backgroundColor="bg-lilac"
         borderColor="lg:border-lime"
+        target="true"
       />
     </AppSection>
     <AppSection id="blog" class="bg-lime bg-lime-girl" position="right">
@@ -65,7 +66,7 @@
     </AppSection>
     <AppSection id="tcg" class="bg-sunflower bg-sunflower-girl" position="left">
       <h2>TCG Vault (TBC)</h2>
-      <p>Here you'll find a growing gallery of my cards with photos amd what I'm hunting next. Think of it as a digital binder—organized, searchable, and always up to date.</p>
+      <p>Here you'll find a growing gallery of my cards with photos amd what I'm hunting next. Think of it as a digital binder that's organised, searchable and always up to date.</p>
       <p>Whether you're a fellow collector or a curious visitor, feel free to browse through what I've picked up.</p>
       <Button 
         url="/" 
