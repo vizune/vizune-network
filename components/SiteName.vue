@@ -8,9 +8,9 @@
       <span class="text-sunflower">n</span>
       <span class="text-plum">e</span>
       <span class="text-sunflower">.</span>
-      <span class="text-lime">c</span>
-      <span class="text-apricot">o</span>
-      <span class="text-breeze">m</span>
+      <span class="text-lime">n</span>
+      <span class="text-apricot">e</span>
+      <span class="text-breeze">t</span>
     </span>
   </NuxtLink>
 </template>

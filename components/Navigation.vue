@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const links = [
   { name: 'Designs', to: { path: '/', hash: '#designs' }, color: 'breeze', hex: '#cbe9f7' },
-  { name: 'Portfolio', to: { path: '/', hash: '#portfolio' }, color: 'apricot', hex: '#f9bc9c' },
+  { name: 'Reviews', to: { path: '/', hash: '#reviews' }, color: 'apricot', hex: '#f9bc9c' },
   { name: 'Blog', to: { path: '/', hash: '#blog' }, color: 'lime', hex: '#c9f3c9' },
   { name: 'TCG', to: { path: '/', hash: '#tcg' }, color: 'sunflower', hex: '#fffaa6' },
   { name: 'Photography', to: { path: '/', hash: '#photography' }, color: 'plum', hex: '#dbb6bf' },
