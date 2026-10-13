@@ -73,7 +73,7 @@
       <p>Part collection, part wishlist and part digital museum, it’s a place to catalogue all the little treasures I've picked up along the way.</p>
       <p>Whether you're a fellow collector or a curious visitor, feel free to browse through what I've picked up.</p>
       <Button 
-        url="/" 
+        url="https://celestial-vault.neocities.org/" 
         label="Visit Celestial Vault"
         backgroundColor="bg-lime" 
         borderColor="lg:border-apricot"
