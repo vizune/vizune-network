@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const links = [
-  { name: 'Designs', to: { path: '/', hash: '#designs' }, color: 'breeze', hex: '#cbe9f7' },
-  { name: 'Reviews', to: { path: '/', hash: '#reviews' }, color: 'apricot', hex: '#f9bc9c' },
-  { name: 'Blog', to: { path: '/', hash: '#blog' }, color: 'lime', hex: '#c9f3c9' },
-  { name: 'TCG', to: { path: '/', hash: '#tcg' }, color: 'sunflower', hex: '#fffaa6' },
+  { name: 'Studio', to: { path: '/', hash: '#studio' }, color: 'breeze', hex: '#cbe9f7' },
+  { name: 'Designs', to: { path: '/', hash: '#designs' }, color: 'apricot', hex: '#f9bc9c' },
+  { name: 'Reviews', to: { path: '/', hash: '#reviews' }, color: 'lime', hex: '#c9f3c9' },
+  { name: 'Vault', to: { path: '/', hash: '#vault' }, color: 'sunflower', hex: '#fffaa6' },
   { name: 'Photography', to: { path: '/', hash: '#photography' }, color: 'plum', hex: '#dbb6bf' },
 ]
 </script>

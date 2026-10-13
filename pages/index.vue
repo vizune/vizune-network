@@ -18,7 +18,22 @@
       />
     </AppSection>
 
-    <AppSection id="designs" class="bg-breeze bg-breeze-girl" position="right">
+    <AppSection id="studio" class="bg-breeze bg-breeze-girl" position="right">
+      <h2>Studio (Coming soon)</h2>
+
+      <p><strong>Where new worlds begin.</strong> ✨🐈‍⬛ Vizune is my little indie game development studio and the home of the original worlds I'm building. I'm currently working on my first game, while learning, experimenting and slowly bringing the wider Vizune universe to life.</p>
+
+      <p>The studio site is currently being rebuilt alongside a brand new identity for Vizune. For now it'll be a small glimpse of what's coming, but eventually I hope to turn it into an interactive space where you can explore the different worlds I create.</p>
+      <Button 
+        url="https://vizune.com/" 
+        label="Visit Vizune Studio" 
+        backgroundColor="bg-plum"
+        borderColor="lg:border-sunflower"
+        target="true"
+      />
+    </AppSection>
+
+    <AppSection id="designs" class="bg-apricot bg-apricot-girl" position="left">
       <h2>Designs</h2>
 
       <p><strong>This is where it all began.</strong> 😊 Long before Vizune became a network, a gamertag or even a company, it was my little corner of the internet for experimenting with web design and anime graphics.</p>
@@ -29,48 +44,37 @@
       <Button 
         url="https://vizune.neocities.org/" 
         label="Visit Vizune Designs" 
-        backgroundColor="bg-plum"
-        borderColor="lg:border-sunflower"
-        target="true"
-      />
-    </AppSection>
-
-    <AppSection id="reviews" class="bg-apricot bg-apricot-girl" position="left">
-      <h2>Reviews (WIP)</h2>
-
-      <p><strong>A love letter to the games that deserve to be remembered.</strong> 🎮💜 I'm not here to chase the latest AAA launch. I'm much more interested in the strange, beautiful and overlooked games that stick with you long after the credits roll.</p>
-
-      <p>This is a space for hidden gems, cult favourites, indie experiments and underrated worlds with rich aesthetics, memorable characters, unusual ideas and stories that leave an impression.</p>
-
-      <p>Some will be nostalgic favourites, some will be wonderfully obscure and others may simply be games I think deserve a little more attention. Expect plenty of RPGs, anime-inspired adventures, forgotten console titles and the occasional beautiful oddity. 🌈</p>
-
-      <p>My review site is currently being built over on Nekoweb, where I'll be slowly creating an archive of the games, stories and worlds I've fallen in love with along the way.</p>
-      <Button 
-        url="https://vizune.nekoweb.org/" 
-        label="Visit Vizune Reviews" 
         backgroundColor="bg-lilac"
         borderColor="lg:border-lime"
         target="true"
       />
     </AppSection>
-    <AppSection id="blog" class="bg-lime bg-lime-girl" position="right">
-      <h2>Blog (TBC)</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
+
+    <AppSection id="reviews" class="bg-lime bg-lime-girl" position="right">
+      <h2>Reviews (WIP)</h2>
+
+      <p><strong>A love letter to the games that deserve to be remembered.</strong> 🎮💜</p>
+
+      <p>This is a space for hidden gems, cult favourites, indie experiments, nostalgic RPGs, underrated worlds and the wonderfully obscure. 🌈 I favour rich aesthetics, memorable characters, unusual ideas and stories that leave an impression.</p>
+
+      <p>My review site is currently being built over on Nekoweb, where I'll be slowly creating an archive of the games, stories and worlds I've fallen in love with along the way.</p>
       <Button 
-        url="/" 
-        label="Find out more" 
+        url="https://vizune.nekoweb.org/" 
+        label="Visit Vizune Reviews" 
         backgroundColor="bg-apricot"
         borderColor="lg:border-lilac"
+        target="true"
       />
     </AppSection>
-    <AppSection id="tcg" class="bg-sunflower bg-sunflower-girl" position="left">
-      <h2>TCG Vault (TBC)</h2>
-      <p>Here you'll find a growing gallery of my cards with photos amd what I'm hunting next. Think of it as a digital binder that's organised, searchable and always up to date.</p>
+    <AppSection id="vault" class="bg-sunflower bg-sunflower-girl" position="left">
+      <h2>Celestial Vault</h2>
+      <p>Treasures gathered from different worlds. ✨</p>
+      <p>Celestial Vault is a growing archive of the things I love to collect from retro games, trading cards, figures, art prints to beautiful oddities.</p>
+      <p>Part collection, part wishlist and part digital museum, it’s a place to catalogue all the little treasures I've picked up along the way.</p>
       <p>Whether you're a fellow collector or a curious visitor, feel free to browse through what I've picked up.</p>
       <Button 
         url="/" 
-        label="Find out more"
+        label="Visit Celestial Vault"
         backgroundColor="bg-lime" 
         borderColor="lg:border-apricot"
       />
