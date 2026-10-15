@@ -19,7 +19,7 @@
     </AppSection>
 
     <AppSection id="studio" class="bg-breeze bg-breeze-girl" position="right">
-      <h2>Studio (Coming soon)</h2>
+      <h2>Studio (WIP)</h2>
 
       <p><strong>Where new worlds begin.</strong> ✨🐈‍⬛ Vizune is my little indie game development studio and the home of the original worlds I'm building. I'm currently working on my first game, while learning, experimenting and slowly bringing the wider Vizune universe to life.</p>
 
@@ -51,7 +51,7 @@
     </AppSection>
 
     <AppSection id="reviews" class="bg-lime bg-lime-girl" position="right">
-      <h2>Reviews (WIP)</h2>
+      <h2>Reviews (Coming soon)</h2>
 
       <p><strong>A love letter to the games that deserve to be remembered.</strong> 🎮💜</p>
 
@@ -67,7 +67,7 @@
       />
     </AppSection>
     <AppSection id="vault" class="bg-sunflower bg-sunflower-girl" position="left">
-      <h2>Celestial Vault</h2>
+      <h2>Celestial Vault (WIP)</h2>
       <p>Treasures gathered from different worlds. ✨</p>
       <p>Celestial Vault is a growing archive of the things I love to collect from retro games, trading cards, figures, art prints to beautiful oddities.</p>
       <p>Part collection, part wishlist and part digital museum, it’s a place to catalogue all the little treasures I've picked up along the way.</p>
@@ -80,7 +80,7 @@
       />
     </AppSection>
     <AppSection id="photography" class="bg-plum bg-plum-girl" position="right">
-      <h2>Photography (TBC)</h2>
+      <h2>Pressed Memories (TBC)</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <Button 
