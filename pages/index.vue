@@ -19,7 +19,7 @@
     </AppSection>
 
     <AppSection id="studio" class="bg-breeze bg-breeze-girl" position="right">
-      <h2>Studio (WIP)</h2>
+      <h2>Studio</h2>
 
       <p><strong>Where new worlds begin.</strong> ✨🐈‍⬛ Vizune is my little indie game development studio and the home of the original worlds I'm building. I'm currently working on my first game, while learning, experimenting and slowly bringing the wider Vizune universe to life.</p>
 
