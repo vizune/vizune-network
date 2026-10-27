@@ -11,7 +11,7 @@
       <p>Vizune has been my <a href="https://steamcommunity.com/id/vizune/" target="_blank">gamertag</a> for years and now it's even the name of my company 🎉 What started as a little corner of the internet has grown into something much bigger. <em>Watch this space...</em> it's only the beginning ✨</p>
 
       <Button 
-        url="#designs" 
+        url="#studio" 
         label="Start exploring" 
         backgroundColor="lg:bg-apricot"
         borderColor="lg:border-sunflower"
