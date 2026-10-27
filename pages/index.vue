@@ -23,7 +23,7 @@
 
       <p><strong>Where new worlds begin.</strong> ✨🐈‍⬛ Vizune is my little indie game development studio and the home of the original worlds I'm building. I'm currently working on my first game, while learning, experimenting and slowly bringing the wider Vizune universe to life.</p>
 
-      <p>The studio site is currently being rebuilt alongside a brand new identity for Vizune. For now it'll be a small glimpse of what's coming, but eventually I hope to turn it into an interactive space where you can explore the different worlds I create.</p>
+      <p>Vizune has a shiny new identity, and vizune.com is now open as a small glimpse of what's brewing. Pop your email on the list to be first to hear about the game reveal, devlogs and early playtests. Eventually it will grow into an interactive space where you can explore the different worlds I create.</p>
       <Button 
         url="https://vizune.com/" 
         label="Visit Vizune Studio" 
