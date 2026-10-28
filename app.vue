@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useHead({
   htmlAttrs: { lang: 'en' },
-  title: 'Vizune.com Network',
-  meta: [{ name: 'description', content: 'Vizune.com microsite network' }]
+  title: 'Vizune Network',
+  meta: [{ name: 'description', content: 'Vizune.net microsite network' }]
 })
 </script>
 
