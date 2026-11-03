@@ -7,12 +7,17 @@ useHead({
 </script>
 
 <template>
-  <SvgSprite />
   <div>
     <AppHeader />
-    <main class="lg:pt-[var(--header-h)]">
+    <main class="main">
       <nuxt-page />
       <AppFooter />
     </main>
   </div>
 </template>
+
+<style scoped>
+@media (min-width: 1024px) {
+  .main { padding-top: var(--header-h); }
+}
+</style>

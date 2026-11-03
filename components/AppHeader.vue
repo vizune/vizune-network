@@ -33,17 +33,57 @@ onBeforeUnmount(() => ro?.disconnect())
 </script>
 
 <template>
-  <header
-    ref="headerRef"
-    class="inset-x-0 top-0 bg-black/80 backdrop-blur supports-[backdrop-filter]:bg-black/60 lg:fixed lg:z-50"
-  >
-    <div class="pt-6 sm:pt-12 pb-1 text-center">
-      <button type="button" class="inline-block" @click="goTop" aria-label="Back to top">
+  <header ref="headerRef" class="header">
+    <div class="header-brand">
+      <button type="button" class="header-top" @click="goTop" aria-label="Back to top">
         <SiteName />
       </button>
     </div>
-    <div class="text-center">
-      <Navigation class="py-1 mt-3" />
+    <div class="header-nav">
+      <Navigation class="header-links" />
     </div>
   </header>
 </template>
+
+<style lang="scss" scoped>
+.header {
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgb(0 0 0 / 0.8);
+  backdrop-filter: blur(8px);
+
+  @supports (backdrop-filter: blur(8px)) {
+    background-color: rgb(0 0 0 / 0.6);
+  }
+
+  @media (min-width: 1024px) {
+    position: fixed;
+    z-index: 50;
+  }
+
+  &-brand {
+    padding-top: 1.5rem;
+    padding-bottom: 0.25rem;
+    text-align: center;
+
+    @media (min-width: 640px) {
+      padding-top: 3rem;
+    }
+  }
+
+  &-top {
+    display: inline-block;
+  }
+
+  &-nav {
+    text-align: center;
+  }
+
+  &-links {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-top: 0.75rem;
+  }
+}
+</style>

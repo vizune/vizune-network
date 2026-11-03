@@ -8,20 +8,31 @@
   })
 </script>
 <template>
-  <a v-if="external" :href="url" class="button" target="_blank">
-    <div :class="`bottom ${backgroundColor}`"></div>
-    <div :class="`top border-2 border-black ${borderColor}`">
-      <div class="label font-tiny lg:text-lg text-black">{{label}}</div>
+  <a
+    v-if="external"
+    :href="url"
+    class="button"
+    target="_blank"
+    :style="{ '--button-bg': `var(--color-${backgroundColor})`, '--button-border': `var(--color-${borderColor})` }"
+  >
+    <div class="bottom"></div>
+    <div class="top">
+      <div class="label">{{label}}</div>
       <div class="button-border button-border-left"></div>
       <div class="button-border button-border-top"></div>
       <div class="button-border button-border-right"></div>
       <div class="button-border button-border-bottom"></div>
     </div>
   </a>
-  <NuxtLink v-else :to="url" class="button">
-    <div :class="`bottom ${backgroundColor}`"></div>
-    <div :class="`top border-2 border-black ${borderColor}`">
-      <div class="label font-tiny lg:text-lg text-black">{{label}}</div>
+  <NuxtLink
+    v-else
+    :to="url"
+    class="button"
+    :style="{ '--button-bg': `var(--color-${backgroundColor})`, '--button-border': `var(--color-${borderColor})` }"
+  >
+    <div class="bottom"></div>
+    <div class="top">
+      <div class="label">{{label}}</div>
       <div class="button-border button-border-left"></div>
       <div class="button-border button-border-top"></div>
       <div class="button-border button-border-right"></div>
@@ -81,6 +92,11 @@
     height: 100%;
     padding: 24px 34px 22px 34px;
 	  text-align: center;
+    border: 2px solid black;
+
+    @media (min-width: 1024px) {
+      border-color: var(--button-border, black);
+    }
   }
 
   .bottom {
@@ -91,6 +107,7 @@
     height: 100%;
     display: block;
 	  padding: 0 34px;
+    background-color: var(--button-bg);
     -webkit-transition: all .15s ease-out;
     transition: all .15s ease-out;
 
@@ -100,6 +117,8 @@
   }
 
   .label {
+    font-family: var(--font-tiny);
+    color: black;
     font-weight: 400;
     line-height: 110%;
     letter-spacing: 2px;
@@ -107,6 +126,10 @@
     text-transform: uppercase;
     -webkit-transition: all .15s ease-out;
     transition: all .15s ease-out;
+
+    @media (min-width: 1024px) {
+      font-size: 1.125rem;
+    }
   }
 
   &:hover {

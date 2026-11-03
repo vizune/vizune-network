@@ -2,7 +2,7 @@
   command = "npm ci --include=optional && npm run generate"
 
 [build.environment]
-  NODE_VERSION = "20.19.5"
+  NODE_VERSION = "22"
 
 [[headers]]
   for = "/_nuxt/*"

@@ -1,17 +1,20 @@
 <script setup lang="ts">
 defineProps({
-  position: String
+  position: String,
+  theme: String
 })
 </script>
 
 <template>
   <section
     v-bind="$attrs"
-    :class="`Wrapper Wrapper-${position} flex w-full bg-fixed bg-no-repeat lg:scroll-mt-[var(--header-h)]`"
+    :class="`Wrapper Wrapper-${position}`"
+    :style="{
+      backgroundColor: `var(--color-${theme})`,
+      backgroundImage: `var(--bg-${theme})`
+    }"
   >
-    <div
-      class="w-full sm:w-3/5 bg-white lg:bg-transparent py-16 lg:py-28 px-[5%] mt-[400px] sm:mt-0"
-    >
+    <div class="Wrapper-content">
       <slot />
     </div>
   </section>
@@ -19,7 +22,33 @@ defineProps({
 
 <style lang="scss">
 .Wrapper {
+  display: flex;
+  width: 100%;
   min-height: calc(100vh - var(--header-h));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  @media (min-width: 1024px) {
+    scroll-margin-top: var(--header-h);
+  }
+
+  &-content {
+    width: 100%;
+    background-color: white;
+    padding: 4rem 5%;
+    margin-top: 400px;
+
+    @media (min-width: 640px) {
+      width: 60%;
+      margin-top: 0;
+    }
+
+    @media (min-width: 1024px) {
+      background-color: transparent;
+      padding-top: 7rem;
+      padding-bottom: 7rem;
+    }
+  }
 
   &-left {
     background-position: left 3rem;

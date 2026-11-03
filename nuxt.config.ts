@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/google-fonts'],
-  css: ['~/assets/scss/main.scss'],
+  css: ['@fortawesome/fontawesome-svg-core/styles.css', '~/assets/scss/main.scss'],
   components: [
     {
       path: '~/components',
@@ -14,6 +14,14 @@ export default defineNuxtConfig({
   },
   vite: {
     build: { cssCodeSplit: false },
+    // Pre-bundle Font Awesome so the dev server doesn't reload the page on first visit
+    optimizeDeps: {
+      include: [
+        '@fortawesome/fontawesome-svg-core',
+        '@fortawesome/free-brands-svg-icons',
+        '@fortawesome/vue-fontawesome',
+      ],
+    },
   },
   googleFonts: {
     display: 'swap',
@@ -30,7 +38,6 @@ export default defineNuxtConfig({
   },
   postcss: {
     plugins: {
-      tailwindcss: {},
       autoprefixer: {},
       cssnano:
         process.env.NODE_ENV === 'production'

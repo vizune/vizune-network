@@ -21,7 +21,7 @@ const next = () =>
 <template>
   <span>
     <template v-for="(word, wIndex) in text.split(' ')" :key="wIndex">
-      <span class="inline-block whitespace-nowrap">
+      <span class="word">
         <span
           v-for="(ch, cIndex) in word"
           :key="cIndex"
@@ -37,3 +37,10 @@ const next = () =>
     </template>
   </span>
 </template>
+
+<style scoped>
+.word {
+  display: inline-block;
+  white-space: nowrap;
+}
+</style>

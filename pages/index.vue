@@ -1,6 +1,6 @@
 <template>
   <div>
-    <AppSection class="bg-lilac bg-lilac-girl" position="left">
+    <AppSection theme="lilac" position="left">
       <h1>Welcome!</h1>
       <p>Hiya~! 💖 My name is Sasha. I've owned <a href="https://vizune.com" target="_blank">Vizune.com</a> since 2009, and over the years it has evolved from a web development portfolio into my own little creative sanctuary for web design, anime and digital art.</p>
 
@@ -13,12 +13,12 @@
       <Button 
         url="#studio" 
         label="Start exploring" 
-        backgroundColor="lg:bg-apricot"
-        borderColor="lg:border-sunflower"
+        backgroundColor="apricot"
+        borderColor="sunflower"
       />
     </AppSection>
 
-    <AppSection id="studio" class="bg-breeze bg-breeze-girl" position="right">
+    <AppSection id="studio" theme="breeze" position="right">
       <h2>Studio</h2>
 
       <p><strong>Where new worlds begin.</strong> ✨🐈‍⬛ Vizune is my little indie game development studio and the home of the original worlds I'm building. I'm currently working on my first game, while learning, experimenting and slowly bringing the wider Vizune universe to life.</p>
@@ -27,13 +27,13 @@
       <Button 
         url="https://vizune.com/" 
         label="Visit Vizune Studio" 
-        backgroundColor="bg-plum"
-        borderColor="lg:border-sunflower"
-        target="true"
+        backgroundColor="plum"
+        borderColor="sunflower"
+        external
       />
     </AppSection>
 
-    <AppSection id="designs" class="bg-apricot bg-apricot-girl" position="left">
+    <AppSection id="designs" theme="apricot" position="left">
       <h2>Designs</h2>
 
       <p><strong>This is where it all began.</strong> 😊 Long before Vizune became a network, a gamertag or even a company, it was my little corner of the internet for experimenting with web design and anime graphics.</p>
@@ -44,13 +44,13 @@
       <Button 
         url="https://vizune.neocities.org/" 
         label="Visit Vizune Designs" 
-        backgroundColor="bg-lilac"
-        borderColor="lg:border-lime"
-        target="true"
+        backgroundColor="lilac"
+        borderColor="lime"
+        external
       />
     </AppSection>
 
-    <AppSection id="reviews" class="bg-lime bg-lime-girl" position="right">
+    <AppSection id="reviews" theme="lime" position="right">
       <h2>Reviews (Coming soon)</h2>
 
       <p><strong>A love letter to the games that deserve to be remembered.</strong> 🎮💜</p>
@@ -61,12 +61,12 @@
       <Button 
         url="https://vizune.nekoweb.org/" 
         label="Visit Vizune Reviews" 
-        backgroundColor="bg-apricot"
-        borderColor="lg:border-lilac"
-        target="true"
+        backgroundColor="apricot"
+        borderColor="lilac"
+        external
       />
     </AppSection>
-    <AppSection id="vault" class="bg-sunflower bg-sunflower-girl" position="left">
+    <AppSection id="vault" theme="sunflower" position="left">
       <h2>Celestial Vault (WIP)</h2>
       <p>Treasures gathered from different worlds. ✨</p>
       <p>Celestial Vault is a growing archive of the things I love to collect from retro games, trading cards, figures, art prints to beautiful oddities.</p>
@@ -75,19 +75,19 @@
       <Button 
         url="https://celestial-vault.neocities.org/" 
         label="Visit Celestial Vault"
-        backgroundColor="bg-lime" 
-        borderColor="lg:border-apricot"
+        backgroundColor="lime" 
+        borderColor="apricot"
       />
     </AppSection>
-    <AppSection id="photography" class="bg-plum bg-plum-girl" position="right">
+    <AppSection id="photography" theme="plum" position="right">
       <h2>Pressed Memories (TBC)</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel convallis dui, non imperdiet felis. Mauris dignissim sapien eu mi condimentum ultricies. Vestibulum pulvinar dui vitae efficitur posuere.</p>
       <Button 
         url="/" 
         label="Find out more" 
-        backgroundColor="bg-breeze"
-        borderColor="lg:border-sunflower"
+        backgroundColor="breeze"
+        borderColor="sunflower"
       />
     </AppSection>
   </div>

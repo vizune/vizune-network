@@ -1,7 +1,100 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+// Theme: colours and section background images
+:root {
+  --color-apricot: #febb99;
+  --color-breeze: #b3daec;
+  --color-lilac: #afaab8;
+  --color-lime: #baf7c3;
+  --color-plum: #ddbbc3;
+  --color-sunflower: #faffaf;
 
+  --bg-apricot: url('/bg_apricot.jpg');
+  --bg-breeze: url('/bg_breeze.jpg');
+  --bg-lilac: url('/bg_lilac.jpg');
+  --bg-lime: url('/bg_lime.jpg');
+  --bg-plum: url('/bg_plum.jpg');
+  --bg-sunflower: url('/bg_sunflower.jpg');
+
+  --font-kanit: "Kanit", sans-serif;
+  --font-tiny: "Tiny5", sans-serif;
+}
+
+// Reset (based on Tailwind's Preflight)
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  line-height: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+  margin: 0;
+}
+
+ol, ul, menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+  cursor: pointer;
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  vertical-align: middle;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+// Base
 html, body {
   height: 100%;
   background: black;
@@ -14,12 +107,12 @@ html { scroll-behavior: smooth; }
 }
 
 body {
-  font-family: "Kanit", sans-serif;
+  font-family: var(--font-kanit);
   margin: 0;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Tiny5", sans-serif;
+  font-family: var(--font-tiny);
   font-weight: 700;
   letter-spacing: 1px;
 }
